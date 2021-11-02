@@ -1,0 +1,56 @@
+@media screen and (max-width:1000px){
+    .songItems{
+        width: 94%;
+        font-size: small;
+        /* overflow: scroll; */
+        /* scroll-behavior: auto; */
+        
+    }
+    .songItems img{
+        width: 12%;
+        margin-left: 10px;
+    }
+        
+    .songNme{
+        margin-right: -40px;
+    }
+    .timestamp{
+        margin-left: -96px;
+        visibility: hidden;
+    } 
+}
+/* Iphone 5 */
+@media only screen and (max-device-width: 480px) {
+    .bottom{
+        margin-right: -7px;
+    }
+}
+/* IPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+    .songItems img{
+    width: 9%;
+    margin: 0 23px;
+    } 
+    .timestamp{
+        visibility: visible;
+        margin-right: 92px;
+    }
+    .songNme{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 320px){ 
+    .songItems{
+        width: 107%;
+    }
+    .bottom{
+        margin-right: -60px;
+    }
+    .container{
+        margin-right: -14px;
+    }
+    .songNme{
+        margin-right: -50px;
+    }
+}
